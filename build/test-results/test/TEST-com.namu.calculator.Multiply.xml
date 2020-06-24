@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.namu.calculator.Multiply" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-24T10:36:38" hostname="MacBook-Pro" time="0.002">
+  <properties/>
+  <testcase name="음수와_양수가_주어졌을때_올바른_값이_나와야_합니다" classname="com.namu.calculator.Multiply" time="0.0"/>
+  <testcase name="음수와_음수가_주어졌을때_올바른_값이_나와야_합니다" classname="com.namu.calculator.Multiply" time="0.0"/>
+  <testcase name="양수와_양수가_주어졌을때_올바른_값이_나와야_합니다" classname="com.namu.calculator.Multiply" time="0.0"/>
+  <testcase name="양수와_음수가_주어졌을때_올바른_값이_나와야_합니다" classname="com.namu.calculator.Multiply" time="0.001"/>
+  <system-out><![CDATA[NStack{size=50, sp=2, array=[-3, 7, *]}
+NStack{size=50, sp=2, array=[-3, -7, *]}
+NStack{size=50, sp=2, array=[3, 7, *]}
+NStack{size=50, sp=2, array=[3, -7, *]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

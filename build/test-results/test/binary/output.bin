@@ -1,0 +1,24 @@
+)NStack{size=50, sp=2, array=[-21, 7, /]}
+*NStack{size=50, sp=2, array=[-21, -7, /]}
+(NStack{size=50, sp=2, array=[21, 7, /]}
+)NStack{size=50, sp=2, array=[21, -7, /]}
+-NStack{size=50, sp=4, array=[3, 2, +, 2, ^]}
+3NStack{size=50, sp=6, array=[3, 2, +, 2, 7, +, *]}
+	-NStack{size=50, sp=4, array=[3, 2, +, 2, *]}
+
+(NStack{size=50, sp=2, array=[-3, 7, -]}
+)NStack{size=50, sp=2, array=[-3, -7, -]}
+'NStack{size=50, sp=2, array=[3, 7, -]}
+(NStack{size=50, sp=2, array=[3, -7, -]}
+(NStack{size=50, sp=2, array=[-3, 7, *]}
+)NStack{size=50, sp=2, array=[-3, -7, *]}
+'NStack{size=50, sp=2, array=[3, 7, *]}
+(NStack{size=50, sp=2, array=[3, -7, *]}
+(NStack{size=50, sp=2, array=[-3, 2, ^]}
+)NStack{size=50, sp=2, array=[-4, -2, ^]}
+'NStack{size=50, sp=2, array=[3, 2, ^]}
+(NStack{size=50, sp=2, array=[4, -2, ^]}
+(NStack{size=50, sp=2, array=[-3, 7, +]}
+)NStack{size=50, sp=2, array=[-3, -7, +]}
+'NStack{size=50, sp=2, array=[3, 7, +]}
+(NStack{size=50, sp=2, array=[3, -7, +]}
