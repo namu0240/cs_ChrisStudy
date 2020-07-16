@@ -1,4 +1,6 @@
-package namu;
+package namu.alogirthm;
+
+import namu.struct.stack.NStack;
 
 public class NCalculator {
 

@@ -1,4 +1,4 @@
-package namu;
+package namu.struct.stack;
 
 import java.util.ArrayList;
 import java.util.List;
