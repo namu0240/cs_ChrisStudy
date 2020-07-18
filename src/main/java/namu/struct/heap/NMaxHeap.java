@@ -5,8 +5,8 @@ public class NMaxHeap implements NHeap {
 
     private static final int FRONT = 1;
 
-    int[] array;
-    int size = 0;
+    private int[] array;
+    private int size = 0;
 
     public NMaxHeap(int arraySize) {
         this.array = new int[arraySize + 1];
@@ -125,6 +125,11 @@ public class NMaxHeap implements NHeap {
             swap(index, minIndex);
             index = minIndex;
         }
+    }
+
+    @Override
+    public int getSize() {
+        return size;
     }
 
     private void swap(int fIndex, int bIndex) {

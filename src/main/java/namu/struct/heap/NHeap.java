@@ -28,4 +28,6 @@ public interface NHeap {
 
     void print();
 
+    int getSize();
+
 }
